@@ -1,0 +1,216 @@
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --darkcyan: hsl(179, 100%, 13%);
+    --transwhite: hsla(0, 0%, 100%, 0.75);
+    --lightgrey: hsl(0, 0%, 95%);
+}
+
+body {
+    background-color: var(--lightgrey);
+}
+
+h1 {
+    color: var(--lightgrey);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    color: var(--lightgrey);
+    font-family: 'Lexend', sans-serif;
+}
+
+.images {
+    padding: 1em 0 1em 0;
+}
+
+#btn1 {
+    background-color: var(--lightgrey);
+    font-family: 'Lexend', sans-serif;
+    color: var(--orange);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1em 2em 1em 2em;
+    margin: 1em 0 1em 0;
+    border: none;
+}
+
+#btn1:hover {
+    color: white;
+    background-color: var(--orange);
+    border:white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#btn2 {
+    background-color: var(--lightgrey);
+    font-family: 'Lexend', sans-serif;
+    color: var(--cyan);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1em 2em 1em 2em;
+    margin: 1em 0 1em 0;
+    border: none;
+}
+
+#btn2:hover {
+    color: white;
+    background-color: var(--cyan);
+    border:white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#btn3 {
+    background-color: var(--lightgrey);
+    font-family: 'Lexend', sans-serif;
+    color: var(--darkcyan);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1em 2em 1em 2em;
+    margin: 1em 0 1em 0;
+    border: none;
+}
+
+#btn3:hover {
+    color: white;
+    background-color: var(--darkcyan);
+    border:white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    grid-template-rows: auto;
+    padding: 14em 5em 5em 5em;
+    justify-content: center;
+}
+
+.first-card {
+    background: var(--orange);
+    padding: 3em;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.second-card {
+    background: var(--cyan);
+    padding: 3em;
+}
+
+.third-card {
+    background: var(--darkcyan);
+    padding: 3em;
+    border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width:600px) {
+
+    body {
+        background-color: var(--lightgrey);
+    }
+    
+    h1 {
+        color: var(--lightgrey);
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    
+    p {
+        color: var(--lightgrey);
+        font-family: 'Lexend', sans-serif;
+    }
+    
+    .images {
+        padding: 1em 0 1em 0;
+    }
+    
+    #btn1 {
+        background-color: var(--lightgrey);
+        font-family: 'Lexend', sans-serif;
+        color: var(--orange);
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        padding: 1em 2em 1em 2em;
+        margin: 1em 0 1em 0;
+        border: none;
+    }
+    
+    #btn1:hover {
+        color: white;
+        background-color: var(--orange);
+        border:white;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    #btn2 {
+        background-color: var(--lightgrey);
+        font-family: 'Lexend', sans-serif;
+        color: var(--cyan);
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        padding: 1em 2em 1em 2em;
+        margin: 1em 0 1em 0;
+        border: none;
+    }
+    
+    #btn2:hover {
+        color: white;
+        background-color: var(--cyan);
+        border:white;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    #btn3 {
+        background-color: var(--lightgrey);
+        font-family: 'Lexend', sans-serif;
+        color: var(--darkcyan);
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        padding: 1em 2em 1em 2em;
+        margin: 1em 0 1em 0;
+        border: none;
+    }
+    
+    #btn3:hover {
+        color: white;
+        background-color: var(--darkcyan);
+        border:white;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 300px;
+        padding: 5em 5em 5em 5em;
+        justify-content: center;
+    }
+    
+    .first-card {
+        background: var(--orange);
+        padding: 3em;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .second-card {
+        background: var(--cyan);
+        padding: 3em;
+    }
+    
+    .third-card {
+        background: var(--darkcyan);
+        padding: 2em;
+        border-radius: 0 0 10px 10px;
+    }
+}
